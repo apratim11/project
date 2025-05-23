@@ -170,23 +170,6 @@ const products = [
     numReviews: 11,
   },
   {
-    name: 'Polo Shirt',
-    description: 'Classic polo shirt made from premium cotton pique. Perfect for casual and semi-formal occasions.',
-    price: 44.99,
-    images: [
-      'https://images.pexels.com/photos/6626899/pexels-photo-6626899.jpeg',
-      'https://images.pexels.com/photos/6626904/pexels-photo-6626904.jpeg'
-    ],
-    category: 'Shirts',
-    gender: 'men',
-    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
-    colors: ['White', 'Navy', 'Red', 'Green'],
-    inStock: true,
-    featured: false,
-    rating: 4.4,
-    numReviews: 13,
-  },
-  {
     name: 'Maxi Dress',
     description: 'Elegant maxi dress perfect for special occasions. Features flowing fabric and feminine silhouette.',
     price: 89.99,
