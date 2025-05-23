@@ -72,8 +72,8 @@ const products = [
     description: 'A light and breezy summer dress with a beautiful floral pattern. Perfect for beach days or casual summer outings.',
     price: 69.99,
     images: [
-      'https://images.pexels.com/photos/7586603/pexels-photo-7586603.jpeg',
-      'https://images.pexels.com/photos/6765186/pexels-photo-6765186.jpeg'
+      'https://images.pexels.com/photos/6765186/pexels-photo-6765186.jpeg',
+      'https://images.pexels.com/photos/7586603/pexels-photo-7586603.jpeg'
     ],
     category: 'Dresses',
     gender: 'women',
