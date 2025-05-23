@@ -4,8 +4,8 @@ const products = [
     description: 'A comfortable, everyday t-shirt made from 100% premium cotton. Features a relaxed fit and durability that will last through many washes.',
     price: 29.99,
     images: [
-      'https://images.pexels.com/photos/5384423/pexels-photo-5384423.jpeg',
-      'https://images.pexels.com/photos/6311475/pexels-photo-6311475.jpeg'
+      'https://images.pexels.com/photos/428340/pexels-photo-428340.jpeg',
+      'https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg'
     ],
     category: 'T-Shirts',
     gender: 'unisex',
@@ -21,8 +21,8 @@ const products = [
     description: 'Modern slim fit jeans with a touch of stretch for comfort. Perfect for casual wear or dressing up for a night out.',
     price: 59.99,
     images: [
-      'https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg',
-      'https://images.pexels.com/photos/1082529/pexels-photo-1082529.jpeg'
+      'https://images.pexels.com/photos/52518/jeans-pants-blue-shop-52518.jpeg',
+      'https://images.pexels.com/photos/1346187/pexels-photo-1346187.jpeg'
     ],
     category: 'Jeans',
     gender: 'men',
@@ -38,8 +38,8 @@ const products = [
     description: 'Elegant high-waisted dress pants for a professional look. Made with a comfortable stretch fabric that moves with you.',
     price: 79.99,
     images: [
-      'https://images.pexels.com/photos/6765514/pexels-photo-6765514.jpeg',
-      'https://images.pexels.com/photos/6765515/pexels-photo-6765515.jpeg'
+      'https://images.pexels.com/photos/1550562/pexels-photo-1550562.jpeg',
+      'https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg'
     ],
     category: 'Pants',
     gender: 'women',
@@ -56,7 +56,7 @@ const products = [
     price: 49.99,
     images: [
       'https://images.pexels.com/photos/297933/pexels-photo-297933.jpeg',
-      'https://images.pexels.com/photos/6626903/pexels-photo-6626903.jpeg'
+      'https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg'
     ],
     category: 'Shirts',
     gender: 'men',
@@ -72,8 +72,8 @@ const products = [
     description: 'A light and breezy summer dress with a beautiful floral pattern. Perfect for beach days or casual summer outings.',
     price: 69.99,
     images: [
-      'https://images.pexels.com/photos/6765186/pexels-photo-6765186.jpeg',
-      'https://images.pexels.com/photos/7586603/pexels-photo-7586603.jpeg'
+      'https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg',
+      'https://images.pexels.com/photos/1462637/pexels-photo-1462637.jpeg'
     ],
     category: 'Dresses',
     gender: 'women',
@@ -90,7 +90,7 @@ const products = [
     price: 64.99,
     images: [
       'https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg',
-      'https://images.pexels.com/photos/6311600/pexels-photo-6311600.jpeg'
+      'https://images.pexels.com/photos/1192601/pexels-photo-1192601.jpeg'
     ],
     category: 'Activewear',
     gender: 'unisex',
@@ -106,8 +106,8 @@ const products = [
     description: 'A timeless wool sweater that provides warmth and style. Perfect for layering during colder months.',
     price: 89.99,
     images: [
-      'https://images.pexels.com/photos/6764035/pexels-photo-6764035.jpeg',
-      'https://images.pexels.com/photos/6311471/pexels-photo-6311471.jpeg'
+      'https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg',
+      'https://images.pexels.com/photos/45055/pexels-photo-45055.jpeg'
     ],
     category: 'Sweaters',
     gender: 'unisex',
@@ -123,8 +123,8 @@ const products = [
     description: 'A classic leather jacket that adds edge to any outfit. Made from high-quality leather with a comfortable lining.',
     price: 199.99,
     images: [
-      'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg',
-      'https://images.pexels.com/photos/7691283/pexels-photo-7691283.jpeg'
+      'https://images.pexels.com/photos/1124468/pexels-photo-1124468.jpeg',
+      'https://images.pexels.com/photos/1306248/pexels-photo-1306248.jpeg'
     ],
     category: 'Jackets',
     gender: 'unisex',
@@ -140,8 +140,8 @@ const products = [
     description: 'A sophisticated blazer perfect for professional settings. Features classic tailoring and premium fabric.',
     price: 129.99,
     images: [
-      'https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg',
-      'https://images.pexels.com/photos/6626967/pexels-photo-6626967.jpeg'
+      'https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg',
+      'https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg'
     ],
     category: 'Jackets',
     gender: 'men',
@@ -157,8 +157,8 @@ const products = [
     description: 'Durable cargo pants with multiple pockets. Perfect for outdoor activities and casual wear.',
     price: 69.99,
     images: [
-      'https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg',
-      'https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg'
+      'https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg',
+      'https://images.pexels.com/photos/1620814/pexels-photo-1620814.jpeg'
     ],
     category: 'Pants',
     gender: 'men',
@@ -170,12 +170,29 @@ const products = [
     numReviews: 11,
   },
   {
+    name: 'Polo Shirt',
+    description: 'Classic polo shirt made from premium cotton pique. Perfect for casual and semi-formal occasions.',
+    price: 44.99,
+    images: [
+      'https://images.pexels.com/photos/1232459/pexels-photo-1232459.jpeg',
+      'https://images.pexels.com/photos/3768005/pexels-photo-3768005.jpeg'
+    ],
+    category: 'Shirts',
+    gender: 'men',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['White', 'Navy', 'Red', 'Green'],
+    inStock: true,
+    featured: false,
+    rating: 4.4,
+    numReviews: 13,
+  },
+  {
     name: 'Maxi Dress',
     description: 'Elegant maxi dress perfect for special occasions. Features flowing fabric and feminine silhouette.',
     price: 89.99,
     images: [
-      'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg',
-      'https://images.pexels.com/photos/7679863/pexels-photo-7679863.jpeg'
+      'https://images.pexels.com/photos/985635/pexels-photo-985635.jpeg',
+      'https://images.pexels.com/photos/1755428/pexels-photo-1755428.jpeg'
     ],
     category: 'Dresses',
     gender: 'women',
@@ -191,8 +208,8 @@ const products = [
     description: 'A versatile pleated skirt that can be dressed up or down. Features comfortable elastic waistband.',
     price: 54.99,
     images: [
-      'https://images.pexels.com/photos/6765511/pexels-photo-6765511.jpeg',
-      'https://images.pexels.com/photos/6765512/pexels-photo-6765512.jpeg'
+      'https://images.pexels.com/photos/1390600/pexels-photo-1390600.jpeg',
+      'https://images.pexels.com/photos/1631181/pexels-photo-1631181.jpeg'
     ],
     category: 'Skirts',
     gender: 'women',
@@ -208,8 +225,8 @@ const products = [
     description: 'Elegant blouse with feminine details. Perfect for work or special occasions.',
     price: 49.99,
     images: [
-      'https://images.pexels.com/photos/6765509/pexels-photo-6765509.jpeg',
-      'https://images.pexels.com/photos/6765510/pexels-photo-6765510.jpeg'
+      'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg',
+      'https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg'
     ],
     category: 'Shirts',
     gender: 'women',
@@ -225,8 +242,8 @@ const products = [
     description: 'Stylish cropped cardigan perfect for layering. Made from soft, comfortable yarn.',
     price: 44.99,
     images: [
-      'https://images.pexels.com/photos/6765507/pexels-photo-6765507.jpeg',
-      'https://images.pexels.com/photos/6765508/pexels-photo-6765508.jpeg'
+      'https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg',
+      'https://images.pexels.com/photos/1183267/pexels-photo-1183267.jpeg'
     ],
     category: 'Sweaters',
     gender: 'women',
