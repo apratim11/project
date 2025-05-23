@@ -135,6 +135,125 @@ const products = [
     rating: 4.9,
     numReviews: 25,
   },
+  {
+    name: 'Tailored Blazer',
+    description: 'A sophisticated blazer perfect for professional settings. Features classic tailoring and premium fabric.',
+    price: 129.99,
+    images: [
+      'https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg',
+      'https://images.pexels.com/photos/6626967/pexels-photo-6626967.jpeg'
+    ],
+    category: 'Jackets',
+    gender: 'men',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['Navy', 'Charcoal', 'Black'],
+    inStock: true,
+    featured: false,
+    rating: 4.7,
+    numReviews: 16,
+  },
+  {
+    name: 'Cargo Pants',
+    description: 'Durable cargo pants with multiple pockets. Perfect for outdoor activities and casual wear.',
+    price: 69.99,
+    images: [
+      'https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg',
+      'https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg'
+    ],
+    category: 'Pants',
+    gender: 'men',
+    sizes: ['30x30', '32x30', '34x30', '36x30'],
+    colors: ['Khaki', 'Olive', 'Black'],
+    inStock: true,
+    featured: false,
+    rating: 4.3,
+    numReviews: 11,
+  },
+  {
+    name: 'Polo Shirt',
+    description: 'Classic polo shirt made from premium cotton pique. Perfect for casual and semi-formal occasions.',
+    price: 44.99,
+    images: [
+      'https://images.pexels.com/photos/6626899/pexels-photo-6626899.jpeg',
+      'https://images.pexels.com/photos/6626904/pexels-photo-6626904.jpeg'
+    ],
+    category: 'Shirts',
+    gender: 'men',
+    sizes: ['S', 'M', 'L', 'XL', 'XXL'],
+    colors: ['White', 'Navy', 'Red', 'Green'],
+    inStock: true,
+    featured: false,
+    rating: 4.4,
+    numReviews: 13,
+  },
+  {
+    name: 'Maxi Dress',
+    description: 'Elegant maxi dress perfect for special occasions. Features flowing fabric and feminine silhouette.',
+    price: 89.99,
+    images: [
+      'https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg',
+      'https://images.pexels.com/photos/7679863/pexels-photo-7679863.jpeg'
+    ],
+    category: 'Dresses',
+    gender: 'women',
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Navy', 'Burgundy', 'Emerald'],
+    inStock: true,
+    featured: false,
+    rating: 4.8,
+    numReviews: 19,
+  },
+  {
+    name: 'Pleated Skirt',
+    description: 'A versatile pleated skirt that can be dressed up or down. Features comfortable elastic waistband.',
+    price: 54.99,
+    images: [
+      'https://images.pexels.com/photos/6765511/pexels-photo-6765511.jpeg',
+      'https://images.pexels.com/photos/6765512/pexels-photo-6765512.jpeg'
+    ],
+    category: 'Skirts',
+    gender: 'women',
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Black', 'Navy', 'Beige'],
+    inStock: true,
+    featured: false,
+    rating: 4.6,
+    numReviews: 15,
+  },
+  {
+    name: 'Blouse',
+    description: 'Elegant blouse with feminine details. Perfect for work or special occasions.',
+    price: 49.99,
+    images: [
+      'https://images.pexels.com/photos/6765509/pexels-photo-6765509.jpeg',
+      'https://images.pexels.com/photos/6765510/pexels-photo-6765510.jpeg'
+    ],
+    category: 'Shirts',
+    gender: 'women',
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['White', 'Blush', 'Light Blue'],
+    inStock: true,
+    featured: false,
+    rating: 4.5,
+    numReviews: 14,
+  },
+  {
+    name: 'Cropped Cardigan',
+    description: 'Stylish cropped cardigan perfect for layering. Made from soft, comfortable yarn.',
+    price: 44.99,
+    images: [
+      'https://images.pexels.com/photos/6765507/pexels-photo-6765507.jpeg',
+      'https://images.pexels.com/photos/6765508/pexels-photo-6765508.jpeg'
+    ],
+    category: 'Sweaters',
+    gender: 'women',
+    sizes: ['XS', 'S', 'M', 'L', 'XL'],
+    colors: ['Pink', 'Cream', 'Gray'],
+    inStock: true,
+    featured: false,
+    rating: 4.4,
+    numReviews: 12,
+  }
 ];
 
 export default products;
